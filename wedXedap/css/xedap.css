@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	width:100%;
+	
+	display:-moz-box;/* Firefox */
+	-moz-box-pack:center;/* Firefox */
+	display:-webkit-box;/* Safari and Chrome */
+	-webkit-box-pack:center;/* Safari and Chrome */
+	
+
+}
+header, section, footer, aside, nav, article, hgroup{
+	display:block;
+}
+#page
+{
+	margin-top:10px;
+	max-width: 1000px;
+	background-color:#ffede1;
+	/* border:solid 1px #000;		 */
+}
+
+nav
+{
+	
+	background:url(../img/nav.jpg);	
+	
+}
+nav ul
+{
+	height:38px;
+	
+}
+nav ul li
+{
+	display:inline-block;
+	/*block*/
+	list-style:none;
+	padding-left:10px;
+	padding-right:10px;
+	height:38px;
+	line-height:38px;
+ 
+}
+nav ul li:hover
+{
+	background-color:#336699;
+}
+nav ul li a
+{ 
+	text-decoration:none;
+	color:#000;
+	display:block;
+}
+nav ul li a:hover
+{ 
+	color:#fff;
+	
+	
+}
+#content
+{	
+	display:-moz-box;/* Firefox */
+	-moz-box-orient:horizontal;
+	-moz-box-flex:1;/* Firefox */
+	display:-webkit-box;/* Safari and Chrome */
+	-webkit-box-orient:horizontal;	
+	-webkit-box-flex:1;/* Safari and Chrome */
+}
+#left
+{
+	width:25%;
+	margin-right:7px;
+}
+#main
+{
+	width:50%;	
+	display:-moz-box;/* Firefox */
+	-moz-box-flex:1;/* Firefox */
+	display:-webkit-box;/* Firefox */
+	-webkit-box-flex:1;/* Safari and Chrome */
+	-moz-box-orient:vertical;
+	-webkit-box-orient:vertical;
+	
+}
+.slide img
+{
+	max-width:100%;	
+}
+#main ul
+{
+ border:solid 1px #000;
+}
+#main ul li
+{
+	display:inline-block;
+	list-style:none;
+	border:solid 1px #000;
+	width:28%;	
+}
+#right
+{
+	width:25%;
+	margin-left:7px;
+}
+.box h4
+{
+	background:url(../img/topmenu.jpg);
+ 	height:31px;
+	line-height:31px;
+	text-align:center;
+	
+}
+.box
+{
+	
+	border:solid 1px #000;
+}
+
+.box ul li
+{
+	list-style:none;
+
+	border-bottom:solid 1px #f2d8c7;
+	padding:7px 7px 7px 10px;
+	color:#000;
+
+}
+.box ul li a
+{
+	color:#000;
+	text-decoration:none;
+	display:block;
+}
+.box ul li:hover
+{
+	
+	text-decoration:none;
+	background-color:#f6c4a3;
+	
+	
+}
+.box ul li img
+{
+	max-width:100%;
+}
+.box ul li .title_product
+{
+	text-align:center;
+}
+.box ul li .price
+{
+	color:red;	
+	text-align:center;
+}
+#main .box ul li:hover
+{
+	
+	text-decoration:none;
+	background-color:#336699;
+	
+	
+}
+
+

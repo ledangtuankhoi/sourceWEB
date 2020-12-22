@@ -1,0 +1,26 @@
+
+body{
+    background-color:#333333;
+    color: white;
+    font-size: 1cm;
+}
+span{
+    /* color: red; */
+    background-color: yellow;
+}
+p{
+    margin: 23px 23px 23px 23px;
+    border-style: inset;
+}
+p1{
+    color: red;
+}
+h1{
+    color: greenyellow;
+}
+h2{
+    color: #DD9FE9;
+}
+p2{
+    font-size: small;
+}

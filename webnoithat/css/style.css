@@ -1,0 +1,45 @@
+body{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.clear{
+    clear:bold;
+}
+#container{
+    margin: 0 auto;
+    width: 950px;
+}
+
+#banner{
+    height: 59PX;   
+}
+#logo{
+    width: 230px;
+    float: left;
+}
+#menutop{
+    width: 713px;
+    float: right;
+    padding-top: 24px;
+
+}
+#menutop a{
+    display: block;
+    float: left;
+    height: 26px;
+    padding-top: 9px;
+    width: 100px;
+    text-align: center;
+    background-color: #e9e1cf;
+    font-weight: blod;
+    margin-left: 1px;
+    text-decoration: none;
+    color: #000;
+}
+#menutop a:hover{
+    background-color: #ed8d00;
+    color: #fff;
+}
+#left{
+
+}

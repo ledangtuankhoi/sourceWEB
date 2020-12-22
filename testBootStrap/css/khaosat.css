@@ -1,0 +1,115 @@
+header {
+    position: relative;
+}
+.shopping-mall{
+    position: absolute;
+    bottom: 20px;
+    font-variant: small-caps;
+}
+
+.shopping-mall>h1{
+    font-family: Impact;
+    font-size: 90px;
+    color: mediumspringgreen;
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 2px black;
+    padding-bottom: 0px;
+    border-bottom: 1px dotted gray;
+    margin: 0px;
+}
+.shopping-mall>h5{
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+}
+.poly-cart{
+    margin-top: 5px;
+}
+
+.poly-cart ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-variant: small-caps;
+}
+
+.poly-cart .panel-heading strong {
+    font-variant: small-caps;
+    font-size: larger;
+    text-shadow: 0 0 2px darkgray;
+}
+
+.poly-prod{
+    text-align:center;
+    padding:5px;
+}
+
+.poly-prod .panel-body img{
+    height: 150px;
+    max-width: 95%;
+}
+article p{
+    background-color: black;
+    font-style: initial;
+    font-size: 20px;
+    font-family: impact;
+    /* background: #12c2e9;
+    background: -webkit-linear-gradient (left, #73D2F6, #08C, 20%, #7FC400);
+    background: linear-gradient(to right, #12c212); */
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-style: oblique;
+    text-align: left;
+}
+article .poly-prod:hover{
+    background-color: rgb(91, 91, 92) ;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.panel-default:hover{
+
+}
+a{
+    text-decoration: none;
+}
+
+.container-fluid li:hover{
+    /* background-color: transparent; */
+    /* background-color: whitesmoke; */
+    /* : 0px; */
+    background-color: black;
+    
+}
+a:focus{
+    background-color: #222222;
+}
+
+.tab{
+    display: inline-block;
+}
+/* footer p a {
+    text-align: center;
+} */
+li{
+    list-style: none;
+}
+footer img{
+    max-width: 20px;
+
+}
+.btn-grounp{
+
+}
+a:hover{
+    text-decoration: none;
+}
+.btn-primary a{
+    color: black;
+}
+.container{
+    /* padding: 0px;
+    display: block;
+    margin: 0px 0px; */
+}

@@ -1,0 +1,19 @@
+body{
+    background-image: url(../img/background897jytgfs.jpg);
+
+    /* background-repeat: no-repeat; */
+    /* width: max-content; */
+    background-color: black;
+    width: 1920;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 50px;
+    /* background-image: image-set(`); */
+}
+.navbar-default{
+    background-color: transparent;
+    border: transparent;
+}
+li{
+    list-style: none;
+}
