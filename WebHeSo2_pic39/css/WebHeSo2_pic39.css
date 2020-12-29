@@ -1,20 +1,83 @@
-.container{
-    position: relative;
-    background-image: url("../img/background897jytgfs.jpg");
-    background-position: cover;
-    background-size: cover;
-    height: 100vh;
-    background-repeat: no-repeat;
-    /* width: 100%; */object-fit: contain;
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
 }
 
-.justify-content-center a{
-    color: white;
-    background-color: #4C4C4C;
+div.gallery:hover {
+  border: 1px solid #777;
 }
-.justify-content-center{
-    width: 100%;
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* .head_bg{
+  background-image: url("../img/backgroundfd.jpg");
+  display: block;
+  float: left;
+  width: 100%;
+  border: 0;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  height: 100%;
+
+} */
+
+
+
+element.style {
+}
+<style>
+.fluid .sohp-slideshow-view {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     height: 100%;
-    margin:0px;
+    width: 100%;
+    min-height: 640px;
+    text-align: center;
+    background-color: #212727;
+    color: #fff;
+    position: absolute;
 }
-
+user agent stylesheet
+div {
+    display: block;
+}
+article.light, body, body.light, div.light, footer.light, header.light, main.light, p.light, section.light {
+    color: #212124;
+    background-color: #f3f5f6;
+}
+body {
+    font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+}
+injected stylesheet
+:root {
+    --simple-translate-main-text:  #0c0c0d;
+    --simple-translate-sub-text:  #737373;
+    --simple-translate-line:  #ededf0;
+    --simple-translate-button:  #d7d7db;
+    --simple-translate-highlight:  #5595ff;
+    --simple-translate-main-bg:  #ffffff;
+}
+<style>
+button, html, input, select, textarea {
+    font-family: sans-serif;
+}
