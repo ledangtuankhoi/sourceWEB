@@ -142,14 +142,12 @@ a, a:hover{
   }
 
   *{
-    transition: 0.4s;
+    transition: 0.2s;
   }
 
   .ecard:hover{
-    opacity: 1.2  ;
-    .ecard-btn i{
-      background-color: #A3C331;
-    } 
+    /* background-color: black */
+    opacity: 0.8;
   }
   .header :hover , .card3 :hover{
     opacity: 1.2;
@@ -201,6 +199,9 @@ a, a:hover{
       margin-bottom: 0px !important;
   }
 
+  .welcome {
+    height: 400px;
+  }
   .welcome .slogan h3 , .welcome .slogan h4{
       text-transform: uppercase;
   }
@@ -215,7 +216,9 @@ a, a:hover{
     
   }
 
-  .top{
+  
+
+  .right-1 .top{
     text-align: left;
     background-color: #A6C634;
     padding: 10px 40px;
@@ -223,8 +226,177 @@ a, a:hover{
     
   }
 
+
+ 
+
+  .right-2 .top{
+    text-align: left;
+    background-color: #4C4C4C;
+    padding: 10px 40px;
+    /* font-weight: 0px; */
+    
+  }
+
+
   li.top--slogan.row {
     margin: 0px 0px 10px 0px;
 }
 
+.about-us{
+  height: 313px;
+  background: url(../img/meeting.jpg);
+  opacity: 0.8;
+  background-size: cover;
+  width: 100%;
+  /* position: relative; */
+}
+
+
+.about-us--tab{
+  width: 900px;
+  margin: auto;
+  /* padding:  calc((100% - 96px )/2); */
+  padding: 109px
+}
+
+
+.about-us--tab .logo{
+  padding-top: ; 
+  padding-bottom: ;
+  font-size: 50px;
+  float: left;
+  /* width: 900px; */
+}
+
+
+.about-us--tab .logo .logo2 i{
+  height: 50px;
+  width: 50px;
+}
+
+.about-us--tab .logo .logo1{
+  background-color: #A5C72B;
+  padding: 20px;
+  border-radius: 49%;
+  /* position: relative; */
+  transform: translateX(30px);
+
+}
+
+.about-us--tab .logo .logo2{
+  background-color: #4C4C4C;
+  padding: 20px;
+  /* position: absolute; */
+
+  border-radius: 49%;
+}
+
+.submit{
+  margin: 20px;
+  font-size: 15px;
+
+}
+
+.submit .submit--mail i{
+  font-size: 30px;
+  color: #A4C432;
+  /* margin-top: 10px; */
+  /* padding-top: 10px; */
+  display: flex;
+}
+
+.form-input {
+    width: 318px !important;
+}
+
+.inline{
+  display: inline;
+}
+
+
+.footer{
+  /* height: 331px; */
+
+  background: #464646;
+  background-size: cover;
+
+}
+
+.card {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: $card-bg;
+  background-clip: border-box;
+  border: $card-border-width solid $card-border-color;
+  @include border-radius($card-border-radius);
+
+  > hr {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  > .list-group:first-child {
+    .list-group-item:first-child {
+      @include border-top-radius($card-border-radius);
+    }
+  }
+
+  > .list-group:last-child {
+    .list-group-item:last-child {
+      @include border-bottom-radius($card-border-radius);
+    }
+  }
+}
+
+.card-body {
+  // Enable `flex-grow: 1` for decks and groups so that card blocks take up
+  // as much space as possible, ensuring footers are aligned to the bottom.
+  flex: 1 1 auto;
+  padding: $card-spacer-x;
+}
+
+li.top--slogan.row {
+  font-size: 12px;
+}
+
+li:hover.top--slogan.row {
+  font-size: 12.5px;
+  /* background: opacity: 1.1; ; */
+  
+}
+
+element.style {
+}
+i.col-lg-2.fas.fa-chevron-right {
+    color: #9FC12F;
+}
+
+li.top--slogan.row {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 3px;
+  color: black;
+}
+
+a.col-lg-10.font-weight-bold {
+  color: black;
+  /* colot: black; */
+}
+
+a{
+  color: white;
+}
+
+.footer--info{
+  width: 900px;
+  margin: auto;
+  /* margin-top: 20px; */
+}
+
+.footer--info ul li {
+  margin-bottom: 10px;
+}
  
