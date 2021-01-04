@@ -45,7 +45,14 @@ a, a:hover{
   }
 }
 
+span.fas.fa-home.header--btn {
+  background-color: #A3C331;
+  color: white;
+}
 
+::before {
+  color: white;
+}
 
 .header .nav-item a:hover,.header   nav-item i:hover{
   background-color: #A3C331 ;
@@ -90,7 +97,7 @@ a, a:hover{
   }
   .ecard{
     width: 200px;
-    height: 400px;
+    /* height: 400px; */
     font-size: 12px;
     /* border: 1px red solid; */
     transform: translateY(-144px);
@@ -130,7 +137,8 @@ a, a:hover{
     background-color: transparent;
   }
   .ecard-btn :hover{
-    background-color: #A3C331;
+    /* background-color: #A3C331; */
+    opacity: 0.8;
   }
 
   .ecard-btn i{
@@ -139,6 +147,7 @@ a, a:hover{
     padding: 5px;
     border-radius: 49%;
     transition: 0.4s;
+    background-color: #A3C331;
   }
 
   *{
