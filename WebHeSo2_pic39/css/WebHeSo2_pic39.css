@@ -304,14 +304,22 @@ span.fas.fa-home.header--btn {
   margin: 20px;
   font-size: 15px;
 
+
+}
+
+h3{
+  text-transform: uppercase;
 }
 
 .submit .submit--mail i{
   font-size: 30px;
-  color: #A4C432;
+  color: #A4C432 !important;
   /* margin-top: 10px; */
   /* padding-top: 10px; */
   display: flex;
+}
+.submit .submit--mail i::before {
+  color: #b7d255 !important;
 }
 
 .form-input {

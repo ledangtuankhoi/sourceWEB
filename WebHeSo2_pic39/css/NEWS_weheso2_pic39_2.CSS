@@ -296,3 +296,7 @@
 .u-section-8 .u-container-layout-3 {padding-right: 10px} }
 @media (max-width: 575px){ .u-section-8 .u-image-1 {min-height: 489px}
 .u-section-8 .u-image-2 {min-height: 388px} }</style>
+
+.u-container-layout.u-valign-middle-lg.u-valign-middle-md.u-valign-middle-sm.u-valign-middle-xl.u-valign-top-xs.u-container-layout-1 {
+    background-color: white;
+}

@@ -8,6 +8,10 @@
  * Copyright (c) 2018 Daniel Eden
  */
 
+ .u-container-layout.u-valign-middle-lg.u-valign-middle-md.u-valign-middle-sm.u-valign-middle-xl.u-valign-top-xs.u-container-layout-1 {
+  background-color: white;
+}
+
 @-webkit-keyframes bounce {
   from,
   20%,
