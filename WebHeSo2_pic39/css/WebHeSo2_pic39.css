@@ -1,6 +1,12 @@
 *{
   list-style: none;
 }
+
+nav.navbar.navbar-expand-lg.navbar-light {
+  padding-top: 0px;
+}
+
+
 p{
     margin: 0px !important;
 }
@@ -63,6 +69,15 @@ span.fas.fa-home.header--btn {
   margin: auto;
   /* height: 400px; */
   width: 900px ;
+}
+
+i.icon.fas.fa-home {
+  font-size: 40px;
+}
+
+a.nav-link.header--btn {
+  height: 67px;
+  margin: -9px auto;
 }
 
 .icon .fas .fa-home{
@@ -417,3 +432,12 @@ a{
   margin-bottom: 10px;
 }
  
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
